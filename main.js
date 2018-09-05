@@ -1,5 +1,5 @@
 var customName = document.getElementById('customname');
-var randomizer = document.querySelector('.randomize');
+var randomize = document.querySelector('.randomize');
 var story = document.querySelector('.story');
 
 function randomValueFromArray(array) {
@@ -12,7 +12,7 @@ var insertX = ['Willy the Goblin', 'Big Daddy', 'Father Christmas'];
 var insertY = ['the soup kitchen', 'Disneyland', 'the White House'];
 var insertZ = ['spontaneously combusted', 'melted into a puddle on the sidewalk', 'turned into a slug and crawled away'];
 
-randomizer.addEventListener('click', result);
+randomize.addEventListener('click', result);
 
 function result() {
     var newStory = storyText;
